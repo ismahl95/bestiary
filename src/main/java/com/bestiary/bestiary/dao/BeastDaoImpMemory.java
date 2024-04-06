@@ -14,6 +14,10 @@ public class BeastDaoImpMemory implements BeastDao {
 
     public List<Beast> bestias = new ArrayList<>();
 
+    public void init()
+    {
+        //bestias = UtilFilmFileReader.readFile(null, null, null);
+    }
     @Override
     public Beast findByName(String name) {
         Optional<Beast> result = bestias
