@@ -5,8 +5,10 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
+import com.bestiary.bestiary.config.AppConfig;
 import com.bestiary.bestiary.entity.Beast;
 
 @Repository
@@ -14,9 +16,12 @@ public class BeastDaoImpMemory implements BeastDao {
 
     public List<Beast> bestias = new ArrayList<>();
 
+    @Autowired
+    private AppConfig appConfig;
+
     public void init()
     {
-        //bestias = UtilFilmFileReader.readFile(null, null, null);
+        bestias = UtilFilmFileReader.readFile(appConfig.getFile(), appConfig.getSeparator(), appConfig.getListSeparator());
     }
     @Override
     public Beast findByName(String name) {
