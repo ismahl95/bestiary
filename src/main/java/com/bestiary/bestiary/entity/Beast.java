@@ -6,10 +6,22 @@ public class Beast {
     private String Nombre;
     private String Tipo;
     private String Descripcion;
-    private String Ubicación;
+    private List<String> Ubicacion;
     private int Nivel;
     private List<String> Resistencias;
     private List<String> Debilidades;
+
+
+    public Beast(String Nombre, String Tipo, String Descripcion, List<String> Ubicacion, int Nivel, List<String> Resistencias, List<String> Debilidades) {
+        this.Nombre = Nombre;
+        this.Tipo = Tipo;
+        this.Descripcion = Descripcion;
+        this.Ubicacion = Ubicacion;
+        this.Nivel = Nivel;
+        this.Resistencias = Resistencias;
+        this.Debilidades = Debilidades;
+    }
+
 
     public String getNombre() {
         return this.Nombre;
@@ -35,12 +47,12 @@ public class Beast {
         this.Descripcion = Descripcion;
     }
 
-    public String getUbicación() {
-        return this.Ubicación;
+    public List<String> getUbicación() {
+        return this.Ubicacion;
     }
 
-    public void setUbicación(String Ubicación) {
-        this.Ubicación = Ubicación;
+    public void setUbicación(List<String> Ubicacion) {
+        this.Ubicacion = Ubicacion;
     }
 
     public int getNivel() {
