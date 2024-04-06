@@ -1,0 +1,54 @@
+Nombre; Tipo; Descripción; Ubicación; Nivel; Resistencias; Debilidades
+Grifo; Criatura alada; Un depredador majestuoso con cuerpo de león y alas de águila.; Caminos y zonas montañosas; 5; Quen; Aceite de aceituna
+Wyvern; Bestia voladora; Una criatura escamosa con alas membranosas y una cola venenosa.; Regiones montañosas y valles; 7; Igni; Aceite de wyvern
+Nekker; Monstruo; Pequeñas criaturas humanoides que viven en grupos y son peligrosas en números.; Bosques, áreas rurales; 1; Samum; Aceite de necrófagos
+Leshen; Espíritu de la naturaleza; Un ser antiguo que controla la flora y la fauna a su alrededor.; Bosques oscuros y profundos; 10; Igni; Bombas incendiarias, Quen
+Golem de piedra; Elemental; Una criatura de piedra animada por la magia antigua.; Ruinas y cuevas subterráneas; 7; Aard; Aceite de elemental
+Espectro; No muerto; Un alma atormentada que busca venganza contra los vivos.; Cementerios, lugares encantados; 6; Yrden; Aceite de espectro
+Drowner; Monstruo acuático; Criaturas deformadas que acechan en aguas profundas.; Lagos, ríos; 2; Aard; Aceite de necrófagos
+Cazador nocturno; Vampiro; Un vampiro ágil que caza en la oscuridad de la noche.; Cementerios, ruinas; 8; Moon Dust; Aceite de vampiro
+Ghoul; Monstruo necrófago; Bestia hambrienta de carne podrida, con garras afiladas y dientes desgarradores.; Cementerios, criptas; 3; Igni; Aceite de necrófagos
+Basilisco; Bestia alada; Una serpiente gigante con un pico de pájaro y alas membranosas.; Desiertos, áreas rocosas; 9; Quen; Aceite de basilisco
+Alp; Vampiro; Un vampiro que seduce a sus víctimas con ilusiones antes de atacar.; Bosques, aldeas; 6; Moon Dust; Aceite de vampiro
+Gigante; Criatura gigante; Una enorme criatura que arremete con fuerza bruta.; Tierras altas, valles; 10; Aard; Aceite de ogro
+Sirena; Monstruo acuático; Una criatura con la parte superior de una mujer y la parte inferior de un pez, que atrae a los marineros con su canto.; Costas, mares; 4; Aard; Aceite de necrófagos
+Arpía; Bestia voladora; Criaturas con aspecto de mujer ave, que suelen habitar en zonas rocosas y altas.; Montañas, acantilados; 3; Quen; Aceite de wyvern
+Esfinge; Monstruo; Una bestia con cuerpo de león, alas de águila y cabeza de mujer.; Desiertos, ruinas antiguas; 8; Igni; Aceite de esfinge
+Ogro; Monstruo; Criaturas grandes y brutales con una inteligencia limitada.; Tierras altas, pantanos; 7; Aard; Aceite de ogro
+Alghoul; Monstruo necrófago; Un ghoul más poderoso y resistente que su pariente más común.; Cementerios, ruinas; 5; Igni; Aceite de necrófagos
+Kikimora; Monstruo; Un insectoide similar a una araña con habilidades venenosas.; Bosques, pantanos; 4; Aard; Aceite de necrófagos
+Cockatrice; Bestia alada; Una criatura con cuerpo de reptil y cabeza de gallo.; Bosques, áreas rocosas; 6; Quen; Aceite de basilisco
+Sylvan; Monstruo; Criaturas humanoides que viven en los bosques y son conocidas por su astucia.; Bosques, claros; 7; Igni; Aceite de necrófagos
+Djinn; Espíritu elemental; Seres de energía pura encerrados en vasijas que pueden conceder deseos o traer desgracia.; Ruinas antiguas, lugares encantados; 10; Yrden; Aceite de elemental
+Harpias; Bestia voladora; Criaturas parecidas a mujeres ave con garras afiladas.; Montañas, acantilados; 5; Quen; Aceite de wyvern
+Striga; Monstruo; Una princesa maldita que se transforma en una bestia feroz durante la noche.; Castillo, criptas abandonadas; 9; Igni; Aceite de necrófagos
+Vampiro Bruxa; Vampiro; Vampiros femeninos que se alimentan de sangre humana.; Bosques, áreas rurales; 8; Moon Dust; Aceite de vampiro
+Fiend; Bestia gigante; Criaturas enormes con cuernos y una resistencia sobrenatural.; Bosques, montañas; 10; Aard; Aceite de ogro
+Cyclops; Bestia gigante; Gigantes con un solo ojo que habitan en cuevas y cavernas.; Tierras altas, valles; 9; Aard; Aceite de ogro
+Lobo alfa; Bestia; Un lobo líder de la manada, más grande y fuerte que los demás.; Bosques, praderas; 5; Igni; Aceite de lobo
+Aparición; Espíritu; Una manifestación de una tragedia pasada, que acecha lugares relacionados con su muerte.; Ruinas, cementerios; 8; Yrden; Aceite de espectro
+Hombre lobo; Monstruo; Un humano maldito que se transforma en lobo durante la luna llena.; Bosques oscuros, zonas rurales; 9; Moon Dust; Aceite de lobo
+Nekker Guerrero; Monstruo; Un nekker más grande y fuerte, con una piel más dura y resistente.; Bosques, áreas rurales; 6; Samum; Aceite de necrófagos
+Banshee; Espíritu; Un espíritu que lamenta su muerte y atrae a los vivos con su llanto.; Cementerios, ruinas; 8; Yrden; Aceite de espectro
+Zorra del bosque; Bestia; Una criatura similar a un zorro con habilidades mágicas.; Bosques, claros; 6; Quen; Aceite de lobo
+Necrófago; Monstruo; Una criatura de la noche que se alimenta de cadáveres.; Cementerios, lugares oscuros; 2; Igni; Aceite de necrófagos
+Licántropo; Monstruo; Un hombre maldito que se transforma en lobo durante la luna llena.; Bosques oscuros, praderas; 8; Moon Dust; Aceite de lobo
+Elemental de fuego; Elemental; Una criatura de fuego viviente, creada a partir de la energía elemental.; Volcanes, cuevas ardientes; 10; Aard; Aceite de elemental
+Ogroid; Monstruo; Criaturas grandes y brutales con una apariencia de aspecto humanoide.; Tierras altas, bosques densos; 8; Aard; Aceite de ogro
+Fantasma; Espíritu; Almas atormentadas que no han encontrado paz después de la muerte.; Ruinas, lugares encantados; 7; Yrden; Aceite de espectro
+Leshy; Espíritu de la naturaleza; Guardianes de los bosques que pueden tomar diversas formas.; Bosques, prados; 9; Igni; Bombas incendiarias, Quen
+Noonwraith; Espíritu; Espíritus vengativos de mujeres que murieron trágicamente durante el día.; Campos, cementerios; 8; Yrden; Aceite de espectro
+Aguasvivas; Monstruo acuático; Criaturas gelatinosas que flotan en aguas profundas y atacan a los nadadores.; Lagos, mares; 6; Aard; Aceite de necrófagos
+Elemental de tierra; Elemental; Una criatura de roca y tierra animada por la magia elemental.; Cuevas subterráneas, minas abandonadas; 9; Aard; Aceite de elemental
+Sanguijuela; Bestia; Parásitos acuáticos que se adhieren a sus víctimas para alimentarse de su sangre.; Lagos, pantanos; 7; Aard; Aceite de necrófagos
+Lamia; Monstruo; Una criatura con cuerpo de mujer y cola de serpiente, que seduce a los viajeros para devorarlos.; Bosques, ríos; 8; Quen; Aceite de lamia
+Elemental de aire; Elemental; Criaturas de energía pura que controlan los vientos y las tormentas.; Cimas de montañas, altiplanos; 10; Aard; Aceite de elemental
+Hombre oso; Monstruo; Un hombre maldito que se transforma en oso debido a una antigua maldición.; Bosques, montañas; 9; Moon Dust; Aceite de ogro
+Arpía real; Bestia voladora; Una arpía más grande y feroz que sus parientes más comunes.; Montañas, áreas rocosas; 8; Quen; Aceite de wyvern
+Elemental de agua; Elemental; Criaturas de agua vivientes creadas por la magia elemental.; Lagos, ríos profundos; 10; Aard; Aceite de elemental
+Nekker Hambriento; Monstruo; Nekkers mutados con una ferocidad y resistencia aumentadas.; Cuevas, áreas subterráneas; 7; Samum; Aceite de necrófagos
+Espectro del fuego; Espíritu; Un espíritu de fuego que acecha lugares donde ocurrieron incendios trágicos.; Ruinas, bosques incendiados; 8; Yrden; Aceite de espectro
+Cockatrice Real; Bestia alada; Una versión más poderosa y mortal del cockatrice común.; Montañas, áreas rocosas; 9; Quen; Aceite de basilisco
+Estatua viviente; Elemental; Esculturas animadas por la magia antigua que protegen tesoros o lugares sagrados.; Ruinas, templos antiguos; 7; Aard; Aceite de elemental
+Hombre jabalí; Bestia; Criaturas salvajes que habitan en los bosques y son conocidas por su ferocidad.; Bosques, praderas; 4; Igni; Aceite de lobo
+Doppler; Monstruo; Seres cambiantes que pueden asumir la forma de cualquier humano o criatura.; Ciudades, áreas urbanas; 9; Igni; Aceite de necrófagos
