@@ -1,0 +1,47 @@
+Sintaxis: java -jar movieadvisor.jar [OPCIONES]
+
+	-nm 'name'
+	Lista bestia por el nombre proporcionado
+	No se pueden utilizar más parámetros.
+	
+	-ty tipo1, tipo2, tipo3...
+	Listan aquellas bestias que tengan al menos uno de los tipos
+	que se indican.	El listado de tipos no puede incluir espacios.
+	
+	-lo ubicacion1, ubicacion2, ubicacion3...
+	Lista aquellas bestias que pueden encontrarse en una de las ubicaciones
+	que se 	indican. El listado de ubicaciones no puede incluir espacios. 
+	
+	-nl nivel
+	Lista las bestias que tienen ese nivel
+	El nivel debe expresarse con un número (1 - 10).
+	
+	-st resistencia1, resistencia2, resistencia3...
+	Lista las bestias que tengan una de las resistencias que se indican
+	El listado de resistencias no puede incluir espacios.
+	
+	-wk debilidad1, debilidad2, debilidad3...
+	Lista las bestias que tengan una de las debilidades que se indican
+	El listado de debilidades no puede incluir espacios.
+	
+	-h
+	Muestra este mensaje de ayuda.
+	
+EJEMPLOS DE USO
+
+java -jar movieadvisor.jar -nm 'hombre lobo'
+Muestra la bestia llamada Hombre lobo.
+
+java -jar movieadvisor.jar -nl 8 -lo Ruinas, cementerios
+Muestra las bestias que son de nivel 8 y están en la ubicación:
+Ruinas o Cementerios.
+
+java -jar movieadvisor.jar -ty Monstruo, Elemental -st Igni, Quen
+Muestra las bestias que tengan uno de esos tipos y una de esas fortalezas   
+
+
+LICENCIAS
+
+Los datos utilizados sobre películas utilizados en este ejemplo son
+reales y están sacados del sitio web https://witcher.fandom.com/es/wiki/Bestiario_de_The_Witcher_3 .
+Ten en cuenta que solo puede ser usada con fines personales y no comerciales.
