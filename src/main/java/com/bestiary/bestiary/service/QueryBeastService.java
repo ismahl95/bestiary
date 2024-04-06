@@ -7,8 +7,7 @@ import com.bestiary.bestiary.entity.Beast;
 public interface QueryBeastService {
     
     public Collection<Beast> exec();
-    public QueryBeastService anyName(String name); 
-    public QueryBeastService allName(String name);
+    public QueryBeastService anyName(String name);
     public QueryBeastService type(String... type);
     public QueryBeastService location(String... location);
     public QueryBeastService level(int level);
