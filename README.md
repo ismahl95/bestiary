@@ -8,9 +8,11 @@ First we have 'BestiaryApp' which is the Application itself, which will use 'Bes
 
 When running the application, we can use three sections:
 
-* 'BestiaryHelp', which is used to return the commands to use the APP.
-* 'BeastService', which will return basic searches within the bestiary.
-* BeastQueryService', which will be used for more specific searches. For this Service it will depend on an implementation (which is in charge of 'BeastQueryServiceImp').
+* 'BestiaryHelp': Is a class which is used to return the commands to use the APP.
+* 'BeastService': It is a class that will use an instance of 'QueryBeastService' to be able to execute the methods declared in it.
+* 'BeastQueryService': This is an interface that contains the declaration of the methods that will be used in the 'QueryBeastServiceImpl' and 'BeastService' classes.
+* 'QueryBeastServiceImpl': It is a class that implements the previous interface. In it we implement the logic of the methods and the returns of each of the endpoints.
+
 
 Finally, 'BeastService' and 'BeastQueryServiceImp' depend on 'BeastDao' which is in charge of building the model that comes from the class 'Beast'.
 
@@ -28,4 +30,4 @@ Finally we have a last class called 'UtilBeastReader' which will be in charge of
  ![image](/doc/imgs/Optional.png)
 
 In this case, we must use Optional because it may or may not return a result. 
-Unlike working lists that may be empty. Optional should return the object or a null.
+Unlike working with lists that may be empty. Optional should return the object or a null.
