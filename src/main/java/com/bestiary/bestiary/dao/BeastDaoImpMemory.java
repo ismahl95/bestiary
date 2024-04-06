@@ -46,6 +46,7 @@ public class BeastDaoImpMemory implements BeastDao {
         }
     } */
 
+    @SuppressWarnings("unlikely-arg-type")
     @Override
     public void delete(Beast beast) {
         String nombre = beast.getNombre();
