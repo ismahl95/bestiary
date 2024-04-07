@@ -11,6 +11,8 @@ import org.springframework.stereotype.Repository;
 import com.bestiary.bestiary.config.AppConfig;
 import com.bestiary.bestiary.entity.Beast;
 
+import jakarta.annotation.PostConstruct;
+
 @Repository
 public class BeastDaoImpMemory implements BeastDao {
 
@@ -19,6 +21,7 @@ public class BeastDaoImpMemory implements BeastDao {
     @Autowired
     private AppConfig appConfig;
 
+    @PostConstruct
     public void init()
     {
         bestias = UtilFilmFileReader.readFile(appConfig.getFile(), appConfig.getSeparator(), appConfig.getListSeparator());

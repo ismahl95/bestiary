@@ -7,7 +7,7 @@ import org.springframework.context.annotation.PropertySource;
 
 @Configuration
 @ComponentScan(basePackages = "com.bestiary.bestiary")
-@PropertySource("classpath:/bestiary.csv")
+@PropertySource("classpath:/bestiary.properties")
 public class AppConfig {
 
   @Value("${file.path}")

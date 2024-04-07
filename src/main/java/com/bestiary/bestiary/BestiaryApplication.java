@@ -1,13 +1,21 @@
 package com.bestiary.bestiary;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-@SpringBootApplication
+import com.bestiary.bestiary.config.AppConfig;
+
 public class BestiaryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BestiaryApplication.class, args);
+		
+		ApplicationContext appContext = new AnnotationConfigApplicationContext(AppConfig.class);
+
+		BestiaryRunApp runApp = appContext.getBean(BestiaryRunApp.class);
+
+		runApp.run(args);
+
+		((AnnotationConfigApplicationContext) appContext).close();
 	}
 
 }
