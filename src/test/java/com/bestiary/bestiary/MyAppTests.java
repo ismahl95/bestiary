@@ -41,6 +41,10 @@ public class MyAppTests {
         System.setOut(new PrintStream(outContent));
     }
 
+/**
+ * This test case verifies that calling the `run` method with no arguments in the `bestiaryRunApp`
+ * class should return help by invoking the `getHelp` method on the `bestiaryHelpMock` object.
+ */
     @Test
     public void noArgumentsShouldReturnHelp() {
         String[] args = new String[]{};
@@ -50,6 +54,10 @@ public class MyAppTests {
         verify(bestiaryHelpMock).getHelp();
     }
 
+/**
+ * This Java test method verifies that the `bestiaryRunApp` correctly retrieves and displays
+ * information about a beast named "Grifo".
+ */
     @Test
     public void testRunWithNameArgument_Grifo() {
         // Arrange
