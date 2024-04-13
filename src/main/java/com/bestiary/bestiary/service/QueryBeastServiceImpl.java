@@ -5,13 +5,13 @@ import java.util.Collection;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
+import jakarta.annotation.PostConstruct;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bestiary.bestiary.dao.BeastDao;
 import com.bestiary.bestiary.entity.Beast;
-
-import jakarta.annotation.PostConstruct;
 
 @Service
 public class QueryBeastServiceImpl implements QueryBeastService {

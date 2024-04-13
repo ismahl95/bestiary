@@ -5,13 +5,13 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
+import jakarta.annotation.PostConstruct;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import com.bestiary.bestiary.config.AppConfig;
 import com.bestiary.bestiary.entity.Beast;
-
-import jakarta.annotation.PostConstruct;
 
 @Repository
 public class BeastDaoImpMemory implements BeastDao {
